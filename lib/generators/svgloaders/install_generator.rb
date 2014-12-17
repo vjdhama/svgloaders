@@ -4,8 +4,10 @@ module Svgloaders
 
             desc "This generator copies image files to vendor/assets/images/"
 
-            source_root File.expand_path(".", __FILE__)
-
+            def self.source_root
+                File.dirname(__FILE__)
+            end
+            
             def add_images
                 say_status("Copying", "image files", :green)
                 directory "images", "vendor/assets/images/svgloaders"

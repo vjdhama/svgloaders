@@ -1,6 +1,6 @@
 if defined?(::Rails)
-  	require 'SVGloader/rails/engine' if ::Rails.version >= '3.1'
-  	require 'SVGloader/rails/railtie'
+  	require 'svgloaders/rails/engine' if ::Rails.version >= '3.1'
+  	require 'svgloaders/rails/railtie'
 end
 
 require "svgloaders/version"
