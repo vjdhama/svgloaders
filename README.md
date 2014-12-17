@@ -1,6 +1,6 @@
 # Svgloaders
 
-TODO: Write a gem description
+A gem to install [SVG-loaders](https://github.com/SamHerbert/SVG-Loaders).
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ rails g svgloaders:install
 
 ## Contributing
 
