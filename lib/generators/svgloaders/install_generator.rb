@@ -10,7 +10,7 @@ module Svgloaders
             
             def add_images
                 say_status("Copying", "image files", :green)
-                directory "images", "vendor/assets/images/svgloaders"
+                directory "images", "app/assets/images/"
             end
         end
     end

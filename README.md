@@ -16,9 +16,13 @@ Or install it yourself as:
 
     $ gem install svgloaders
 
-## Usage
+and then run the generator
 
     $ rails g svgloaders:install
+
+## Usage
+
+    The images are copied to the *vendeor/assets/images/svgloaders/* , 
 
 ## Contributing
 
