@@ -4,6 +4,7 @@ A gem to install [SVG-loaders](https://github.com/SamHerbert/SVG-Loaders).
 
 ## Installation
 
+
 Add this line to your application's Gemfile:
 
     gem 'svgloaders'
@@ -22,9 +23,11 @@ and then run the generator
 
 ## Usage
 
-    The images are copied to the *vendeor/assets/images/svgloaders/* , 
+The images are copied to the *app/assets/images/* 
+
 
 ## Contributing
+
 
 1. Fork it ( http://github.com/<my-github-username>/svgloaders/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
